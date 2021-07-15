@@ -11,7 +11,7 @@ class MovieRepository implements IMovieRepository
 
     public function getAllMovie()
     {
-        return Movie::all();
+          return Movie::all();
     }
 
     public function getMovie($id)

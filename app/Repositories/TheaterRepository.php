@@ -40,6 +40,4 @@ class TheaterRepository implements ITheaterRepository
     {
         return Theater::class;
     }
-
-
 }
